@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Mynerve', cursive;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-top: 30px;
+    border: #F7B420;
+    border-style: solid;
+    border-radius: 80px;
+}
+
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #F7B420;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+.cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+    width: 100%;
+    background: #F7B420;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active {
+    transform: scale(0.95);
+}
+
+#quadro{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+#body{
+    background-image: linear-gradient(
+    70deg,
+    hsl(41deg 93% 55%) 0%,
+    hsl(41deg 77% 32%) 26%,
+    hsl(0deg 0% 0%) 33%,
+    hsl(0deg 0% 0%) 78%
+);
+}
+
+#sobre{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 45vw;
+    height: 90vh;
+    border-radius: 0px 15px 15px 0px;
+    margin-left: 30px;
+}
+#sobre p{
+    margin-top: 50px;
+}
+#sobre h1{
+    color: #F7B420;
+    margin-left: 30px;
+    font-size: 2em;
+    margin-top: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+#sobre h2{
+    color: white;
+    margin-left: 50px;
+    font-size: 2em;
+}
+#sobre button{
+    margin-top: 50px;
+}
+#banner2{
+    background-image: url(../Futureme/img/zyro-image\ \(1\).png);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: 80% 50%;
+}
+p{
+    margin-top: 30px;
+}
+
+#all{
+    background-color: #191923
+}
+#info{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.perfil img{
+    border-radius: 300px;
+    width: 140px;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+.perfil h4{
+    margin-left: 130px;
+    margin-top: 5px;
+    color: white;
+    font-size: 1.5em;
+}
+#esquerda{
+    background-color: #2b2b37;
+    width: 30vw;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+#esquerda p {
+    margin-left: 60px;
+    color: white;
+}
+#top{
+    background-color: #2b2b37;
+    width: 60vw;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: white;
+    background-image: url(../Futureme/img/touro.png);
+    background-position: 77% -5%;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+#top2{
+    width: 60vw;
+    height: 280px;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: white;
+}
+#top2 h4{
+    text-align: center;
+    font-size: 2em;
+    background-color: #2b2b37;
+    padding: 15px;
+    width: 30vw;
+    margin-left: 190px;
+}
+
+#top h3{
+    padding-left: 250px;
+    padding-top: 40px;
+    font-size: 2em;
+
+}
+#top p{
+    font-size: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 70px;
+}
+#top2 p{
+    font-size: 1.1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+#tecnologia{
+    color: white;
+}
+#tecnologia h3{
+    font-size: 2em;
+    margin-left: 230px;
+}
+#tecnologia p{
+    margin-left: 70px;
+    margin-bottom: 30px;
+    background-color: #2b2b37;
+    padding: 20px;
+    width: 650px;
+    font-size: 1.1em;
+}
